@@ -1,0 +1,34 @@
+# 統一所有文字檔為 LF
+* text=auto eol=lf
+
+# 二進位檔案不轉換
+*.png binary
+*.jpg binary
+*.7z binary
+*.zip binary
+*.rar binary
+*.tar.gz binary
+*.exe binary
+*.dll binary
+
+# Office 文件（新版）
+*.docx binary
+*.xlsx binary
+*.pptx binary
+
+# Office 文件（舊版）
+*.doc binary
+*.xls binary
+*.ppt binary
+
+# LibreOffice
+*.odt binary
+*.ods binary
+*.odp binary
+
+# PDF
+*.pdf   binary
+
+# Windows 專用檔案保持 CRLF（可選）
+*.bat text eol=crlf
+*.cmd text eol=crlf
